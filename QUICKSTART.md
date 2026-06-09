@@ -30,7 +30,7 @@ notion api：你的_Notion_API_Key
 notion 数据库名称：我的知识库
 
 参考这个 GitHub 仓库中的内容完成安装和初始化：
-https://github.com/你的用户名/hermes-feishu-notion-video-bot
+https://github.com/Luda798/hermes-feishu-notion-video-bot
 
 请安装仓库里的 Skill，并初始化我的 Notion 数据库。初始化完成后，请告诉我是否需要重启。
 ```

@@ -51,12 +51,12 @@ notion api：你的_Notion_API_Key
 notion 数据库名称：你的_Notion_数据库名称
 
 参考这个 GitHub 仓库中的内容完成安装和初始化：
-https://github.com/你的用户名/hermes-feishu-notion-video-bot
+https://github.com/Luda798/hermes-feishu-notion-video-bot
 
 请安装仓库里的 Skill，并初始化我的 Notion 数据库。初始化完成后，请告诉我是否需要重启。
 ```
 
-完整初始化 Prompt 见：[prompts/bootstrap-prompt.md](prompts/bootstrap-prompt.md)
+完整初始化 Prompt 见：[prompts/bootstrap-prompt.md](prompts/bootstrap-prompt.md)。里面包含小白两句话版、详细稳定版、失败后继续处理版和测试链接版。
 
 ### 4. 重启，然后发一个视频链接测试
 
