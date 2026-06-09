@@ -1,10 +1,9 @@
 # Hermes 飞书 Notion 视频知识库 Bot
 
-这是一个面向小白用户的公开模板仓库，用来搭建一个运行在 **飞书/Lark** 里的 Hermes Bot：
+这是一个面向小白用户的公开模板仓库，用来搭建一个运行在 **飞书/Lark** 里的 Hermes Bot，用于实现：
 
-> 你在飞书里给 Bot 发抖音、小红书或微信公众号链接，Bot 会自动整理内容，并保存到你的 Notion 知识库。
-
-第一版目标是 **简单、可跑通、可复核**，暂不追求覆盖所有平台，也不依赖 Coze/扣子。
+> 给飞书 Bot 发抖音、小红书或微信公众号链接，Bot 会自动整理内容，并保存到你的 Notion 知识库。
+> 后续可根据需要，自行优化和调整。
 
 ## 支持范围
 
@@ -15,7 +14,6 @@
 ✅ 自动生成摘要、关键观点、可行动结论  
 ✅ 提取不到完整内容时标记为 `待复核`，不编造总结
 
-暂不支持：YouTube、B站、私密/登录内容、托管云服务、Coze/扣子强依赖。
 
 ## 用户只需要四步
 
@@ -50,8 +48,8 @@ hermes gateway setup
 把下面内容发给你自己的飞书 Bot：
 
 ```text
-notion api：你的_Notion_API_Key
-notion 数据库名称：你的_Notion_数据库名称
+notion api：<你的_Notion_API_Key>
+notion 数据库名称：<你的_Notion_数据库名称>
 
 参考这个 GitHub 仓库中的内容完成安装和初始化：
 https://github.com/Luda798/hermes-feishu-notion-video-bot
