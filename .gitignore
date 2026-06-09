@@ -1,0 +1,38 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Local/cache artifacts
+.cache/
+cache/
+tmp/
+artifacts/
+downloads/
+*.log
+*.sqlite
+*.db
+.DS_Store
+
+# Generated Notion payload/results
+payload*.json
+result*.json
+payloads/private/
+
+# Media / ASR scratch files
+*.mp4
+*.m4a
+*.mp3
+*.wav
+*.webm
+*.srt
+*.vtt
