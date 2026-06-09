@@ -10,19 +10,9 @@
 
 可以暂时只保留标题字段，后面让 Bot 自动检查和补齐字段。
 
-## 2. 创建 Notion API 连接
+## 2. 创建 Notion API 内部连接
 
-Notion 官方现在把 API Integration 放在「Connections / 连接」体系里。常用入口是：
-
-<https://www.notion.so/my-integrations>
-
-打开后，浏览器可能会自动跳转到下面这个地址，这是正常的：
-
-<https://app.notion.com/developers/connections>
-
-进入页面后，点击右侧的 `+ 新连接` / `+ New connection` 创建新的 API 连接。
-
-如果你更习惯从 Notion 应用内进入，也可以按这个路径：
+Notion 官方现在把 API Integration 放在「Connections / 连接」体系里。推荐按这个路径创建：
 
 ```text
 Notion 左侧边栏 Settings
@@ -30,6 +20,10 @@ Notion 左侧边栏 Settings
 → 页面底部 Develop your own connections
 → + New connection
 ```
+
+也可以直接打开：
+
+<https://www.notion.so/profile/integrations/internal>
 
 如果页面空白或打不开，通常不是链接彻底失效，而是你还没有登录 Notion 网页版，或者当前账号不是这个工作区的 Workspace owner。请先登录 Notion 网页版，并确认你使用的是要保存知识库的同一个工作区账号。
 
