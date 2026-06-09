@@ -10,19 +10,30 @@
 
 可以暂时只保留标题字段，后面让 Bot 自动检查和补齐字段。
 
-## 2. 创建 Notion Integration
+## 2. 创建 Notion API 内部连接
 
-打开：
+Notion 官方现在把 API Integration 放在「Connections / 连接」体系里。推荐按这个路径创建：
 
-<https://www.notion.so/my-integrations>
+```text
+Notion 左侧边栏 Settings
+→ Connections
+→ 页面底部 Develop your own connections
+→ + New connection
+```
 
-点击创建 Integration，名称可以叫：
+也可以直接打开：
+
+<https://www.notion.so/profile/integrations/internal>
+
+如果页面空白或打不开，通常不是链接彻底失效，而是你还没有登录 Notion 网页版，或者当前账号不是这个工作区的 Workspace owner。请先登录 Notion 网页版，并确认你使用的是要保存知识库的同一个工作区账号。
+
+创建连接时，名称可以叫：
 
 ```text
 Hermes知识库助手
 ```
 
-复制 API Token，通常以 `ntn_` 或 `secret_` 开头。
+创建完成后，进入连接详情，复制 Internal connection token。这个 token 就是后续给 Hermes 使用的 Notion API Token，通常以 `ntn_` 或 `secret_` 开头。
 
 ## 3. 把数据库连接给 Integration
 

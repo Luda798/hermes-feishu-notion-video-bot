@@ -36,8 +36,11 @@ hermes gateway setup
 在 Notion 中：
 
 1. 新建一个空白数据库，例如：`我的知识库`；
-2. 到 <https://www.notion.so/my-integrations> 创建 Integration；
-3. 复制 Notion API Token；
+2. 创建 Notion API 内部连接（Internal connection）：
+   - 推荐路径：Notion 左侧边栏 `Settings` → `Connections` → 页面底部 `Develop your own connections` → `+ New connection`；
+   - 也可以直接打开：<https://www.notion.so/profile/integrations/internal>；
+   - 如果页面空白或打不开，先登录 Notion 网页版，并确认你是目标工作区的 Workspace owner；
+3. 在连接详情里复制 Internal connection token（也就是给 Hermes 使用的 Notion API Token）；
 4. 把数据库右上角 `...` → `Connect to` → 连接给你的 Integration。
 
 详细教程见：[docs/setup-notion.md](docs/setup-notion.md)
